@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Portfolio Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">BangWill_</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200 border-b-2 border-white">Home</a>
+                <a href="portfolio.html" class="hover:text-blue-200">Portfolio</a>
+                <a href="profile.html" class="hover:text-blue-200">Profile</a>
+                <a href="education.html" class="hover:text-blue-200">Education</a>
+                <a href="skills.html" class="hover:text-blue-200">Skills</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 py-4 bg-indigo-900">
+            <a href="index.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Home</a>
+            <a href="portfolio.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Portfolio</a>
+            <a href="profile.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Profile</a>
+            <a href="education.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Education</a>
+            <a href="skills.html" class="block py-2 hover:text-blue-200">Skills</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-20 bg-gradient-to-b from-indigo-800 to-blue-600 text-white h-screen flex justify-center items-center">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">Selamat Datang di Portfolio Saya</h1>
+                <p class="text-xl md:text-2xl mb-12">Fullstack Developer & UI/UX Designer yang berfokus pada pengalaman
+                    pengguna</p>
+                <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+                    <a href="portfolio.html"
+                        class="bg-white text-indigo-800 px-8 py-3 rounded-lg font-semibold hover:bg-blue-100 transition duration-300">Lihat
+                        Portfolio</a>
+                    <a href="profile.html"
+                        class="bg-transparent border-2 border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-indigo-800 transition duration-300">Profile
+                        Saya</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">BangWill_</h3>
+                    <p class="text-gray-400">Manusia Rajin Baik dan Berkarya.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Navigasi</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                            <li><a href="portfolio.html" class="text-gray-400 hover:text-white">Portfolio</a></li>
+                            <li><a href="profile.html" class="text-gray-400 hover:text-white">Profile</a></li>
+                            <li><a href="education.html" class="text-gray-400 hover:text-white">Education</a></li>
+                            <li><a href="skills.html" class="text-gray-400 hover:text-white">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Layanan</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Frontend Development</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Backend Development</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">UI/UX Design</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Konsultasi IT</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Kontak</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> wildan.cooliah@gmail.com</li>
+                            <li class="flex items-center"><i class="fas fa-phone mr-2"></i> +62 895 6400 25480</li>
+                            <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i> Lampung, Indonesia
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 BangWill_. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="https://github.com/WildanMukmin" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/wildan-mukmin-7569422a7/" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/wildan_mukmin/" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/bng_wil" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - BangWill_</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <header class="bg-gradient-to-r from-blue-600 to-indigo-800 text-white shadow-lg">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold">BangWill_</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="index.html" class="hover:text-blue-200">Home</a>
+                <a href="portfolio.html" class="hover:text-blue-200">Portfolio</a>
+                <a href="profile.html" class="hover:text-blue-200 border-b-2 border-white">Profile</a>
+                <a href="education.html" class="hover:text-blue-200">Education</a>
+                <a href="skills.html" class="hover:text-blue-200">Skills</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle" class="focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 py-4 bg-indigo-900">
+            <a href="index.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Home</a>
+            <a href="portfolio.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Portfolio</a>
+            <a href="profile.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Profile</a>
+            <a href="education.html" class="block py-2 hover:text-blue-200 border-b border-indigo-800">Education</a>
+            <a href="skills.html" class="block py-2 hover:text-blue-200">Skills</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="py-20 bg-gradient-to-b from-indigo-800 to-blue-600 text-white">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-8 md:mb-0 text-center md:text-left">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Wildan Mukmin</h1>
+                    <p class="text-xl mb-6">Full Stack Web Developer & UI/UX Designer</p>
+                    <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+                        <span class="px-4 py-2 bg-blue-800 rounded-full">Web Development</span>
+                        <span class="px-4 py-2 bg-blue-800 rounded-full">Full Stack Development</span>
+                        <span class="px-4 py-2 bg-blue-800 rounded-full">UI/UX Design</span>
+                    </div>
+                </div>
+                <div class="md:w-1/3">
+                    <div class="rounded-full overflow-hidden border-4 border-white w-96 h-96 mx-auto">
+                        <img src="/wildan.png" alt="Profile Photo" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row gap-12">
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-6 text-gray-800">Tentang Saya</h2>
+                        <p class="text-gray-600 mb-4">Saya adalah mahasiswa S1 Ilmu Komputer di UNILA dengan keahlian
+                            dalam pengembangan web full-stack. Saya mengkhususkan diri dalam penggunaan teknologi modern
+                            seperti React, Next.js, Laravel, dan SQL. Salah satu proyek penting saya adalah
+                            mengembangkan sistem web pusat karier secara mandiri, yang menunjukkan kemampuan saya dalam
+                            menangani siklus pengembangan penuh.</p>
+                        <p class="text-gray-600 mb-4">Selain keahlian teknis saya, saya memiliki lebih dari satu tahun
+                            pengalaman sebagai desainer grafis lepas untuk Capcut, yang membuat templat video inovatif,
+                            templat grafis, dan desain stiker. Saya juga menjabat sebagai asisten mahasiswa, yang
+                            berkontribusi dengan mengelola tugas entri data dan membuat desain yang berdampak untuk
+                            berbagai kebutuhan.</p>
+                        <p class="text-gray-600">Tujuan saya adalah untuk lebih memajukan karier saya sebagai pengembang
+                            full-stack atau mengkhususkan diri sebagai pengembang frontend atau backend. Keterampilan
+                            desain saya meningkatkan kemampuan saya untuk membuat aplikasi web yang menarik dan berpusat
+                            pada pengguna, yang mendukung hasrat saya untuk pengembangan dan desain.</p>
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="text-3xl font-bold mb-6 text-gray-800">Informasi Pribadi</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <p class="text-gray-600"><span class="font-semibold">Nama:</span> Wildan Mukmin</p>
+                                <p class="text-gray-600"><span class="font-semibold">Usia:</span> 21 Tahun</p>
+                                <p class="text-gray-600"><span class="font-semibold">Lokasi:</span> Lampung, Indonesia
+                                </p>
+                                <p class="text-gray-600"><span class="font-semibold">Kebangsaan:</span> Indonesia</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-600"><span class="font-semibold">Email:</span> wildan.cooliah@gmail.com</p>
+                                <p class="text-gray-600"><span class="font-semibold">Telepon:</span> +62 895 6400 25480
+                                </p>
+                                <p class="text-gray-600"><span class="font-semibold">Freelance:</span> Aktif</p>
+                                <p class="text-gray-600"><span class="font-semibold">Bahasa:</span> Indonesia, Inggris
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">BangWill_</h3>
+                    <p class="text-gray-400">Manusia Rajin Baik dan Berkarya.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Navigasi</h4>
+                        <ul class="space-y-2">
+                            <li><a href="index.html" class="text-gray-400 hover:text-white">Home</a></li>
+                            <li><a href="portfolio.html" class="text-gray-400 hover:text-white">Portfolio</a></li>
+                            <li><a href="profile.html" class="text-gray-400 hover:text-white">Profile</a></li>
+                            <li><a href="education.html" class="text-gray-400 hover:text-white">Education</a></li>
+                            <li><a href="skills.html" class="text-gray-400 hover:text-white">Skills</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Layanan</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Frontend Development</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Backend Development</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">UI/UX Design</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Konsultasi IT</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-4">Kontak</h4>
+                        <ul class="space-y-2">
+                            <li class="flex items-center"><i class="fas fa-envelope mr-2"></i> wildan.cooliah@gmail.com</li>
+                            <li class="flex items-center"><i class="fas fa-phone mr-2"></i> +62 895 6400 25480</li>
+                            <li class="flex items-center"><i class="fas fa-map-marker-alt mr-2"></i> Lampung, Indonesia
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2025 BangWill_. All rights reserved.</p>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="https://github.com/WildanMukmin" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/wildan-mukmin-7569422a7/" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/wildan_mukmin/" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                    <a href="https://x.com/bng_wil" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
