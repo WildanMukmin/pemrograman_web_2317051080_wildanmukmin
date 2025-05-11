@@ -11,4 +11,5 @@ if ($user && password_verify($password, $user['password'])) {
     header("Location: dashboard.php");
 } else {
     echo "Login gagal. Username atau password salah.";
+    header("Location: /praktek/pertemuan11/form_login/");
 }
